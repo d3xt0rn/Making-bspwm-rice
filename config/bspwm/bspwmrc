@@ -5,8 +5,10 @@
 sxhkd &
 ## wallpapers
 [ -f "$HOME/.fehbg" ] && "$HOME/.fehbg" &
-
-bspc query -d 1 2 3 4 5 6 7 8 9
+## workspaces
+bspc query -d 1 2 3 4 5 6 7 8 9 &
+## keyboard layouts
+setxkbmap -layout "us,ru" -option "grp:win_space_toggle" & ## you can disable this
 
 # windows
 bspc config borde_width 1
