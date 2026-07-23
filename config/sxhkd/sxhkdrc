@@ -51,3 +51,7 @@ super + shift + {Left,Down,Up,Right}
 
 super + b
     bspc node focused -t ~floating
+
+## wm
+super + ctrl + alt +r
+  bspc wm -r
