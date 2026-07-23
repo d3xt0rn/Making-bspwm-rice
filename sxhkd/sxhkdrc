@@ -1,3 +1,4 @@
+# apps
 super + d
   dmenu_run
 
@@ -13,8 +14,31 @@ super + Return
 super + w
   firefox
 
+super + e
+  dolphin
+
+
+# menu
 ctrl + alt + Delete
   $HOME/.config/dmenu/scripts/powermenu.sh
 
-super + e
-  dolphin
+# BSPWM
+## toDesktop/monitor
+super + {1-9}
+  bspc desktop -f '^{1-9}'
+
+super + shift + {1-9}
+  bspc node -d '^{1-9}'
+
+super + ctrl + {1-9}
+    bspc node -d '^{1-9}'; bspc desktop -f '^{1-9}'
+
+super + alt + shift + {1-9}
+  bspc node -d '^{1-9}'
+
+super + alt + ctrl + {1-9}
+    bspc node -d '^{1-9}'; bspc desktop -f '^{1-9}'
+
+## windows
+super + x
+  bspc node -B
