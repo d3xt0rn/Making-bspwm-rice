@@ -1,6 +1,12 @@
 #!/bin/sh
 
+# exec
+## keybind deamon
 sxhkd &
+## wallpapers
+[ -f "$HOME/.fehbg" ] && "$HOME/.fehbg" &
+##color theme
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 
 # windows
 bspc config borde_width 1

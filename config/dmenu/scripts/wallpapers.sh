@@ -1,9 +1,7 @@
 #!/bin/sh
 
-wall=$(
-  find "$HOME/.wallpapers" -type f |
-    sed "s|$HOME/.wallpapers/||" |
-    dmenu -i -l 20 -p "Wallpaper:"
-)
+WALL=$(find "$HOME/.wallpapers" -type f | dmenu -l 15 -p "Wallpaper")
 
-feh --bg-fill "$HOME/.wallpapers/$wall"
+[ -z "$WALL" ] && exit
+
+feh --bg-fill "$WALL"

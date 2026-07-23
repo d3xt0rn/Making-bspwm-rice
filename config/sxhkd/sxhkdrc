@@ -48,3 +48,6 @@ super + {Left,Down,Up,Right}
 
 super + shift + {Left,Down,Up,Right}
     bspc node -s {west,south,north,east}
+
+super + b
+    bspc node focused -t ~floating

@@ -4,6 +4,7 @@ scripts="$HOME/.config/bspwm/scripts"
 
 choice=$(
   printf "%s\n" \
+    "Theme" \
     "Wallpaper" \
     "Power" |
     dmenu -i -p "Scripts:"
@@ -12,4 +13,5 @@ choice=$(
 case "$choice" in
 Wallpaper) "$HOME/.config/dmenu/scripts/wallpapers.sh" ;;
 Power) "$HOME/.config/dmenu/scripts/powermenu.sh" ;;
+Theme) "$HOME/.config/dmenu/scripts/theme.sh" ;;
 esac
