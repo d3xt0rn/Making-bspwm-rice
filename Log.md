@@ -1,5 +1,8 @@
 # change log
 
+## v0.0.6.3
+- small bug fix
+
 ## v0.0.6.2
 - small bug fix
 

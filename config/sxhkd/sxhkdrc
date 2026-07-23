@@ -1,5 +1,8 @@
 # dmenu 
 super + d
+  j4-dmenu-desktop
+
+super + ctrl +d 
   dmenu_run
 
 super + m
@@ -32,15 +35,6 @@ super + {1-9}
 
 super + shift + {1-9}
   bspc node -d '^{1-9}'
-
-super + ctrl + {1-9}
-    bspc node -d '^{1-9}'; bspc desktop -f '^{1-9}'
-
-super + alt + shift + {1-9}
-  bspc node -d '^{1-9}'
-
-super + alt + ctrl + {1-9}
-    bspc node -d '^{1-9}'; bspc desktop -f '^{1-9}'
 
 ## windows
 super + {Left,Down,Up,Right}
