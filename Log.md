@@ -1,5 +1,10 @@
 # change log
 
+## removed themes select menu because its not working
+
+## v0.0.6.0
+- fixing workspace bugs
+
 ## v0.0.5.1
 - added `super+m` keybind to sysMenu options
 - added dbus session run
