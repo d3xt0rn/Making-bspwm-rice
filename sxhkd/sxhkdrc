@@ -1,4 +1,4 @@
-super + @super
+super + d
   dmenu_run
 
 super + q
@@ -12,3 +12,9 @@ super + Return
 
 super + w
   firefox
+
+ctrl + alt + Delete
+  $HOME/.config/dmenu/scripts/powermenu.sh
+
+super + e
+  dolphin
