@@ -1,0 +1,23 @@
+#!/bin/sh
+
+sxhkd &
+
+# windows
+bspc config borde_width 1
+bspc config window_gap 2
+bspc config split_ratio 0.5
+
+# style
+bspc config normal_border_color "#474747"
+bspc config active_border_color "#cfcfcf"
+bspc config focused_border_color "#ffffff"
+
+# focus
+bspc config focus_follows_pointer true
+bspc config pointer_follows_focus true
+
+# padding / gaps
+bspc config top_padding 2
+bspc config bottom_padding 2 
+bspc config left_padding 2
+bspc config right_padding 2
