@@ -1,6 +1,10 @@
 # change log
 
-## removed themes select menu because its not working
+## v0.0.6.2
+- small bug fix
+
+## v0.0.6.1
+- removed themes select menu because its not working
 
 ## v0.0.6.0
 - fixing workspace bugs
