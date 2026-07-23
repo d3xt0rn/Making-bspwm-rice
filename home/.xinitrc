@@ -1,3 +1,5 @@
 sxhkd &
-exec dbus-run-session bspwm
-
+exec dbus-run-session &
+pipewire &
+wireplumber &
+bspwm
