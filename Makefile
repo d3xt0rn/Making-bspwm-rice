@@ -1,25 +1,30 @@
 .PHONY: backup install forceInstall help
 
+HOME_DIR   := $(HOME)
 CONFIG_DIR := $(HOME)/.config
-HOME_DIR := $(HOME)
+CP         := cp
 
 backup:
+	@if [ ! -d "$(CONFIG_DIR)/.git" ]; then \
+		cd "$(CONFIG_DIR)" && git init; \
+	fi
 	cd "$(CONFIG_DIR)" && \
-	git init && \
 	git add . && \
-	git commit -m "backup" && \
-	cp $HOME/.xinitrc $HOME/.xinitrc.bak
+	git diff --cached --quiet || git commit -m "backup"
+	@if [ -f "$(HOME_DIR)/.xinitrc" ]; then \
+		$(CP) "$(HOME_DIR)/.xinitrc" "$(HOME_DIR)/.xinitrc.bak"; \
+	fi
 
 install:
-	cp -rn home/* "$(HOME_DIR)" && \
-	cp -rn config/* "$(CONFIG_DIR)"
+	$(CP) -rn ./home/. "$(HOME_DIR)"
+	$(CP) -rn ./config/. "$(CONFIG_DIR)"
 
 forceInstall:
-	cp -rf home/* "$(HOME_DIR)" && \
-	cp -rf config/* "$(CONFIG_DIR)"
+	$(CP) -rf ./home/. "$(HOME_DIR)"
+	$(CP) -rf ./config/. "$(CONFIG_DIR)"
 
 help:
-	@echo "Commands:"
-	@echo "  backup       - Backup ~/.config into git and and copy your ~/.xinitrc as ~/.xinitrc.bak"
-	@echo "  install      - Copy configs without overwriting"
-	@echo "  forceInstall - Copy configs and overwrite existing files"
+	@echo "Available commands:"
+	@echo "  backup       - Backup ~/.config into a git repository and save ~/.xinitrc"
+	@echo "  install      - Install configs without overwriting existing files"
+	@echo "  forceInstall - Install configs and overwrite existing files"
