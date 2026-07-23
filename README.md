@@ -99,6 +99,10 @@ bspwm provides exactly that while staying minimal.
 * Fast keyboard workflow
 
 ---
+>[> [!IMPORTANT]
+> part of this project made by AI support<br>
+>if you found bug tell be about it in `Issues`<br>
+>i will read wiki how to fix it
 
 # License
 

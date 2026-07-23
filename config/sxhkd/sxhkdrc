@@ -1,7 +1,10 @@
-# apps
+# dmenu 
 super + d
   dmenu_run
 
+super + m
+  $HOME/.config/dmenu/scripts/optionsMenu.sh
+# apps
 super + q
   bspc node -c
 
@@ -40,5 +43,8 @@ super + alt + ctrl + {1-9}
     bspc node -d '^{1-9}'; bspc desktop -f '^{1-9}'
 
 ## windows
-super + x
-  bspc node -B
+super + {Left,Down,Up,Right}
+    bspc node -f {west,south,north,east}
+
+super + shift + {Left,Down,Up,Right}
+    bspc node -s {west,south,north,east}
