@@ -1,0 +1,14 @@
+! xterm black theme
+XTerm*background: #000000
+XTerm*foreground: #ffffff
+
+! cursor
+XTerm*cursorColor: #ffffff
+
+XTerm*selectToClipboard: true
+XTerm*VT100.translations: #override \
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+Xcursor.theme: Bibata-Modern-Classic
+Xcursor.size: 16

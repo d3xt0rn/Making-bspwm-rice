@@ -26,7 +26,12 @@ cat >"$HOME/.icons/default/index.theme" <<EOF
 Inherits=$CURSOR
 EOF
 
-printf "Xcursor.theme: %s\n" "$CURSOR" >"$HOME/.Xresources"
+if grep -q '^Xcursor\.theme:' "$HOME/.Xresources" 2>/dev/null; then
+  sed -i "s/^Xcursor\.theme:.*/Xcursor.theme: $CURSOR/" "$HOME/.Xresources"
+else
+  printf "Xcursor.theme: %s\n" "$CURSOR" >>"$HOME/.Xresources"
+fi
+
 xrdb -merge "$HOME/.Xresources"
 
 notify-send "Cursor" "Switched to $CURSOR"

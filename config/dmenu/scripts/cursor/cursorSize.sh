@@ -11,9 +11,11 @@ Xcursor.size: $SIZE
 XCURSOR_SIZE=$SIZE
 EOF
 
-grep -v "^Xcursor.size:" ~/.Xresources 2>/dev/null >/tmp/.Xresources.$$
-echo "Xcursor.size: $SIZE" >>/tmp/.Xresources.$$
-mv /tmp/.Xresources.$$ ~/.Xresources
+if grep -q '^Xcursor\.size:' ~/.Xresources 2>/dev/null; then
+  sed -i "s/^Xcursor\.size:.*/Xcursor.size: $SIZE/" ~/.Xresources
+else
+  echo "Xcursor.size: $SIZE" >>~/.Xresources
+fi
 
 xrdb -merge ~/.Xresources
 

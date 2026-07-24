@@ -45,6 +45,9 @@ super + shift + {Left,Down,Up,Right}
 super + b
     bspc node focused -t ~floating
 
+super + c
+  bspc desktop -l next
+
 super +  f
     bspc node focused -t ~fullscreen
 
