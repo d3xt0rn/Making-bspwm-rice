@@ -6,9 +6,6 @@ super + ctrl +d
   dmenu_run
 
 # apps
-super + q
-  bspc node -c
-
 super + t
   kitty
 
@@ -19,8 +16,7 @@ super + w
   firefox
 
 super + e
-  dolphin
-
+  thunar
 
 # menu
 ## main menu
@@ -59,5 +55,13 @@ super + shift + s
   spectacle
 
 ### fullscreen screenshot
-#super + prtscreen
+#super + Print
 #  spectacle -b
+
+## apps
+### close
+super + q
+  bspc node -c
+### kill
+super + shift + q
+  bspc node -k
