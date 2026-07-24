@@ -38,6 +38,9 @@ Only the tools I actually use.
 | Compositor           | picom         | 
 | Wallpaper            | feh           |
 | Shell                | zsh           |
+| Screenshots          | flameshot     |
+| TopBar               | polybar       |
+| Scipts               | `sh` Scipts   |
 
 ---
 
@@ -45,16 +48,16 @@ Only the tools I actually use.
 
 * [x] Install a clean Linux system
 * [x] Install bspwm
-* [ ] Configure sxhkd
-* [ ] Create a basic bspwmrc
+* [x] Configure sxhkd
+* [x] Create a basic bspwmrc
 * [x] Configure Kitty
-* [ ] Configure Picom
-* [ ] Set wallpapers
-* [ ] Build a QuickShell bar
-* [ ] Create a side panel
-* [ ] Add notifications
-* [ ] Apply a color palette
-* [ ] Finish the rice
+* [x] Configure Picom
+* [x] Set wallpapers
+* [ ] Build a QuickShell bar i later
+* [ ] Create a side panel if i will use QuickShell
+* [x] Add notifications
+* [x] Apply a color palette
+* [yes?] Finish the rice
 
 ---
 
@@ -112,8 +115,8 @@ bspwm provides exactly that while staying minimal.
 ---
 > [!IMPORTANT]
 > part of this project made by AI support<br>
->if you found bug tell be about it in `Issues`<br>
->i will read wiki how to fix it
+> if you found bug tell be about it in `Issues`<br>
+> i will read wiki how to fix it if can
 
 # License
 
