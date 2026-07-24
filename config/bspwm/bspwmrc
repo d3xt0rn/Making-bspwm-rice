@@ -60,4 +60,3 @@ bspc config remove_unplugged_monitors true
 
 # layout
 bspc config layout tiled
-bspc desktop -l tiled
