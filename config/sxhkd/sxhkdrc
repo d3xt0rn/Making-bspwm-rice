@@ -65,3 +65,7 @@ super + q
 ### kill
 super + shift + q
   bspc node -k
+
+### clipboard
+super + v
+  clipmenu
