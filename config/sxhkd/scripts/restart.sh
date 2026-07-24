@@ -5,4 +5,5 @@ pkill picom
 pkill clipmenu
 pkill flameshot
 pkill dunst
+pkill clipmenud
 bspc wm -r

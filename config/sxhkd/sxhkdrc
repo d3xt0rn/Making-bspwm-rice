@@ -46,7 +46,7 @@ super + b
     bspc node focused -t ~floating
 
 super +  f
-    bspc node -t ~fullscreen
+    bspc node focused -t ~fullscreen
 
 ## wm
 super + ctrl + alt +r
@@ -71,4 +71,4 @@ super + shift + q
 
 ### clipboard
 super + v
-  clipmenu
+  clipmenu -nb '#32363e' -nf '#abb2bf' -sb '#e06c75' -sf '#233c34'
