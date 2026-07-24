@@ -42,7 +42,7 @@ Only the tools I actually use.
 
 >[!IMPORTANT]
 > ## Dependencies and versions i using
-> OpenRC init but you can fork it for `systemd`, `runit`, `dinit` and other inits<br>
+> OpenRC init but you can fork it for `systemd`, `runit`, `dinit` and other inits in 5 minutes<br>
 > bspwm: 0.9.12<br>
 > sxhkd: 0.6.3<br>
 > kitty: 0.46.2<br>
