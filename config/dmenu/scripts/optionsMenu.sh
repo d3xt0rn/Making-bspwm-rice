@@ -1,7 +1,5 @@
 #!/bin/sh
 
-scripts="$HOME/.config/bspwm/scripts"
-
 choice=$(
   printf "%s\n" \
     "Wallpaper" \
