@@ -42,6 +42,23 @@ Only the tools I actually use.
 | TopBar               | polybar       |
 | Scipts               | `sh` Scipts   |
 
+
+>[!IMPORTANT]
+> ## Dependencies and versions i using
+> OpenRC init but you can fork it for `systemd`, `runit`, `dinit` and other inits
+> bspwm: 0.9.12
+> sxhkd: 0.6.3
+> kitty: 0.46.2
+> dmenu: 5.4
+> picom: v13
+> feh: 3.11.3
+> pipewire on libpipewire 1.6.7
+> piprewire-pulse on libpipewire 1.6.7
+> WirePlumber on libwireplumber 0.5.14
+> brightnessctl: 0.5
+> bluez: 5.86
+> blueman
+> JetBrains Nerd Font
 ---
 
 # Roadmap
