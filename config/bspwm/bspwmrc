@@ -5,6 +5,7 @@
 sxhkd &
 picom &
 clipmenud &
+dunst &
 ## wallpapers
 [ -f "$HOME/.fehbg" ] && "$HOME/.fehbg" &
 ## workspaces
