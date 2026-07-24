@@ -55,11 +55,11 @@ super + ctrl + alt +r
 ## screenshot
 ### area screenshot
 super + shift + s
-  spectacle
+  flameshot gui
 
 ### fullscreen screenshot
-#super + Print
-#  spectacle -b
+super + Print
+  flameshot full
 
 ## apps
 ### close
@@ -72,3 +72,21 @@ super + shift + q
 ### clipboard
 super + v
   clipmenu -nb '#32363e' -nf '#abb2bf' -sb '#e06c75' -sf '#233c34'
+
+### deamons
+#### brightnessctl
+XF86MonBrightnessUp
+  brightnessctl set 10%+
+
+XF86MonBrightnessDown
+  brightnessctl set 10%-
+
+#### volume
+XF86AudioRaiseVolume
+    wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+
+XF86AudioLowerVolume
+    wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+
+XF86AudioMute
+    wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
