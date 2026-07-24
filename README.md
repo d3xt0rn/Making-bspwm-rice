@@ -1,4 +1,7 @@
 # Building My BSPWM Rice from Scratch
+>[!important]
+> rn there no list of all software and deps im using in this configs<br>
+> sorry :(
 
 > A personal log of building a clean and lightweight Linux desktop from zero.
 
@@ -32,7 +35,7 @@ Only the tools I actually use.
 | Hotkey Daemon        | sxhkd         |
 | Terminal             | kitty / xterm |
 | Application Launcher | dmenu         |
-| Compositor           | picom         |
+| Compositor           | picom         | 
 | Wallpaper            | feh           |
 | Shell                | zsh           |
 
@@ -99,7 +102,7 @@ bspwm provides exactly that while staying minimal.
 * Fast keyboard workflow
 
 ---
->[> [!IMPORTANT]
+> [!IMPORTANT]
 > part of this project made by AI support<br>
 >if you found bug tell be about it in `Issues`<br>
 >i will read wiki how to fix it
