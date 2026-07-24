@@ -5,7 +5,7 @@ choice=$(
     "bspwm" \
     "sxhkd" \
     "kitty" \
-    "dmenu scripts" \
+    "dmenu-scripts" \
     "picom" \
     "flameshot" \
     "xresources" |
@@ -28,7 +28,7 @@ sxhkd)
 kitty)
   kitty sh -c "cd ~/.config/kitty && nvim"
   ;;
-"dmenu scripts")
+dmenu-scripts)
   kitty sh -c "cd ~/.config/dmenu && nvim"
   ;;
 picom)
