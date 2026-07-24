@@ -1,5 +1,5 @@
-exec dbus-run-session &
+eval $(dbus-launch --sh-syntax --exit-with-session)
 pipewire &
 wireplumber &
 pipewire-pulse &
-bspwm
+exec bspwm
