@@ -1,10 +1,10 @@
 # dmenu 
 super + d
-  j4-dmenu-desktop
+  j4-dmenu-desktop --dmenu="dmenu -nb '#32363e' -nf '#abb2bf' -sb '#e06c75' -sf '#233c34'"
 
 super + shift +d 
-  dmenu_run
-
+  dmenu_run -nb '#32363e' -nf '#abb2bf' -sb '#e06c75' -sf '#233c34'
+  
 # apps
 super + t
   kitty

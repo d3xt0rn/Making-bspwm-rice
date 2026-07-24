@@ -6,7 +6,7 @@ choice=$(
   printf "%s\n" \
     "Wallpaper" \
     "Power" |
-    dmenu -i -p "Scripts:"
+    dmenu -nb '#32363e' -nf '#abb2bf' -sb '#e06c75' -sf '#233c34' -i -p "Scripts:"
 )
 
 case "$choice" in
