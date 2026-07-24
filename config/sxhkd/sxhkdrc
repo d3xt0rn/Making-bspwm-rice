@@ -48,4 +48,13 @@ super + b
 
 ## wm
 super + ctrl + alt +r
-  bspc wm -r
+  $HOME/.config/sxhkd/scripts/restart.sh
+
+## screenshot
+### area screenshot
+super + shift + s
+  spectacle
+
+### fullscreen screenshot
+#super + prtscreen
+#  spectacle -b
