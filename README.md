@@ -1,7 +1,4 @@
 # Building My BSPWM Rice from Scratch
->[!important]
-> rn there no list of all software and deps im using in this configs<br>
-> sorry :(
 
 > A personal log of building a clean and lightweight Linux desktop from zero.
 
