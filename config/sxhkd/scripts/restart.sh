@@ -7,5 +7,6 @@ pkill clipmenu
 pkill flameshot
 pkill dunst
 pkill clipmenud
+pkill quickshell
 pkill -f "$HOME/.config/bspwm/scripts/battery.sh"
 bspc wm -r

@@ -35,6 +35,12 @@ super + {1-9}
 super + shift + {1-9}
   bspc node -d '^{1-9}'
 
+super + ctrl + Right
+    bspc desktop -f next
+
+super + ctrl + Left
+    bspc desktop -f prev
+
 ## windows
 super + {Left,Down,Up,Right}
     bspc node -f {west,south,north,east}
