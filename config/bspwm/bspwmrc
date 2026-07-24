@@ -8,6 +8,7 @@ polybar &
 clipmenud &
 dunst &
 blueman-applet &
+$HOME/.config/bspwm/scripts/battery.sh
 ## wallpapers
 [ -f "$HOME/.fehbg" ] && "$HOME/.fehbg" &
 ## workspaces
