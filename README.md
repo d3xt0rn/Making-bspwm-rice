@@ -70,7 +70,7 @@ Only the tools I actually use.
 * [x] Configure Kitty
 * [x] Configure Picom
 * [x] Set wallpapers
-* [ ] Build a QuickShell bar i later
+* [ ] Build a QuickShell bar later
 * [ ] Create a side panel if i will use QuickShell
 * [x] Add notifications
 * [x] Apply a color palette
