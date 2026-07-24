@@ -1,3 +1,8 @@
+! font
+XTerm*faceName: Terminess Nerd Font
+
+XTerm*faceSize: 9
+
 ! xterm black theme
 XTerm*background: #000000
 XTerm*foreground: #ffffff
