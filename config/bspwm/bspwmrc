@@ -1,8 +1,9 @@
 #!/bin/sh
 
 # exec
-## keybind deamon
+## deamons
 sxhkd &
+picom &
 ## wallpapers
 [ -f "$HOME/.fehbg" ] && "$HOME/.fehbg" &
 ## workspaces
@@ -10,7 +11,7 @@ bspc monitor -d 1 2 3 4 5 6 7 8 9 &
 ## keyboard layouts
 setxkbmap -layout "us,ru" -option "grp:win_space_toggle" & ## you can disable this
 ## env
-export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_QPA_PLATFORMTHEME=qt6ct &
 
 # windows
 bspc config borde_width 1
