@@ -51,7 +51,7 @@ bspc config paddingless_monocle true
 bspc config paddingless_fullscreen true
 
 # padding / gaps
-bspc config top_padding 16
+bspc config top_padding 20
 bspc config bottom_padding 2
 bspc config left_padding 2
 bspc config right_padding 2
