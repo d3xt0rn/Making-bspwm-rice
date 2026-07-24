@@ -52,13 +52,16 @@ Only the tools I actually use.
 > dmenu: 5.4
 > picom: v13
 > feh: 3.11.3
+> dunst: 1.13.1
+> flameshot v13.3.0
+> JetBrains Nerd Font
+> qt 6.11.1
 > pipewire on libpipewire 1.6.7
 > piprewire-pulse on libpipewire 1.6.7
 > WirePlumber on libwireplumber 0.5.14
 > brightnessctl: 0.5
 > bluez: 5.86
 > blueman
-> JetBrains Nerd Font
 ---
 
 # Roadmap
