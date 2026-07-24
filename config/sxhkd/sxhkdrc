@@ -45,6 +45,9 @@ super + shift + {Left,Down,Up,Right}
 super + b
     bspc node focused -t ~floating
 
+super +  f
+    bspc node -t ~fullscreen
+
 ## wm
 super + ctrl + alt +r
   $HOME/.config/sxhkd/scripts/restart.sh

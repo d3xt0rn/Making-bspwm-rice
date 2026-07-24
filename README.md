@@ -102,6 +102,14 @@ bspwm provides exactly that while staying minimal.
 * Fast keyboard workflow
 
 ---
+
+>[!note]
+>#### Mirrors
+> [GitHub](https://github.com/d3xt0rn/Making-bspwm-rice)
+> [GitLabs](https://gitlab.com/d3xt0rn/Making-BSPWM-rice)
+> [CodeBerg](https://codeberg.org/homedubina/Making-BSPWM-Rice)
+
+---
 > [!IMPORTANT]
 > part of this project made by AI support<br>
 >if you found bug tell be about it in `Issues`<br>
