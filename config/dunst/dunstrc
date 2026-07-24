@@ -155,8 +155,7 @@
     #        <b>bold</b>
     #        <i>italic</i>
     #        <s>strikethrough</s>
-    #        <u>underline</u>
-    #
+    #        <u>underline</u>9    #
     #        For a complete reference see
     #        <https://docs.gtk.org/Pango/pango_markup.html>.
     #
