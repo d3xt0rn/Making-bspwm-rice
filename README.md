@@ -43,22 +43,25 @@ Only the tools I actually use.
 >[!IMPORTANT]
 > ## Dependencies and versions i using
 > OpenRC init but you can fork it for `systemd`, `runit`, `dinit` and other inits in 5 minutes<br>
-> bspwm: 0.9.12<br>
-> sxhkd: 0.6.3<br>
-> kitty: 0.46.2<br>
-> dmenu: 5.4<br>
-> picom: v13<br>
-> feh: 3.11.3<br>
-> dunst: 1.13.1<br>
-> flameshot v13.3.0<br>
-> JetBrains Nerd Font<br>
-> qt 6.11.1<br>
-> pipewire on libpipewire 1.6.7<br>
-> piprewire-pulse on libpipewire 1.6.7<br>
-> WirePlumber on libwireplumber 0.5.14<br>
-> brightnessctl: 0.5<br>
-> bluez: 5.86<br>
-> blueman<br>
+| Module | Version |
+| ------------------------ | ------------------ |
+| BSPWM                    | 0.9.12             |
+| sxhkd                    | 0.6.3              |
+| kitty                    | 0.46.2             |
+| dmenu                    | 5.4                |
+| j4-dmenu-desktop         | r3.2               |
+| picom                    | v13                |
+| feh                      | 3.11.3             |
+| dunst                    | 1.13.1             |
+| flameshot                | v13.3.0            |
+| JetBrains Nerd Font      | Just use latest    |
+| Qt6                      | 6.11.1             |
+| libpipewire              | 1.6.7              |
+| libwireplumber           | 0.5.14             |
+| brightnessctl            | 0.5                |
+| bluez                    | 5.86               |
+| blueman                  | idk :/             |
+
 ---
 
 # Roadmap
