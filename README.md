@@ -42,7 +42,7 @@ Only the tools I actually use.
 
 >[!IMPORTANT]
 > ## Dependencies and versions i using
-> OpenRC init but you can fork it for `systemd`, `runit`, `dinit` and other inits in 5 minutes<br>List of al dependencies:
+> OpenRC init but you can fork it for `systemd`, `runit`, `dinit` and other inits in 5 minutes<br>List of dependencies:
 
 | Module | Version |
 | ------------------------ | ------------------ |
