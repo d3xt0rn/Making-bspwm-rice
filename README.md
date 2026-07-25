@@ -23,23 +23,6 @@ No unnecessary background services.
 Only the tools I actually use.
 
 ---
-
-# Planned Software
-
-| Component            | Software      |
-| -------------------- | --------------|
-| Window Manager       | bspwm         |
-| Hotkey Daemon        | sxhkd         |
-| Terminal             | kitty / xterm |
-| Application Launcher | dmenu         |
-| Compositor           | picom         | 
-| Wallpaper            | feh           |
-| Shell                | zsh           |
-| Screenshots          | flameshot     |
-| TopBar               | polybar       |
-| Scipts               | `sh` Scipts   |
-
-
 >[!IMPORTANT]
 > ## Dependencies and versions i using
 > OpenRC init but you can fork it for `systemd`, `runit`, `dinit` and other inits in 5 minutes<br>List of dependencies:
