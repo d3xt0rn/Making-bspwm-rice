@@ -9,20 +9,6 @@ This project documents how I build my own **bspwm** desktop environment from scr
 This repository is both a backup of my configuration and a guide for anyone interested in creating a similar setup.
 
 ---
-
-## Philosophy
-
-* Minimal software
-* Fast startup
-* Easy to customize
-* Keyboard-driven workflow
-* Every component has a purpose
-
-No desktop environment.
-No unnecessary background services.
-Only the tools I actually use.
-
----
 >[!IMPORTANT]
 > ## Dependencies and versions i using
 > OpenRC init but you can fork it for `systemd`, `runit`, `dinit` and other inits in 5 minutes<br>List of dependencies:
@@ -67,7 +53,7 @@ Only the tools I actually use.
 
 # Screenshots
 
-Coming soon.
+[[.Screenshots/Screenshots]]
 
 ---
 
@@ -78,7 +64,6 @@ Projects and communities that inspired this rice:
 * Hyprland
 * Unixporn
 * bspwm users
-* suckless philosophy
 
 ---
 
@@ -89,7 +74,6 @@ I wanted a window manager that is:
 * lightweight
 * simple
 * highly configurable
-* based on binary space partitioning
 * easy to script
 
 bspwm provides exactly that while staying minimal.
