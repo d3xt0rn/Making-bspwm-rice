@@ -51,12 +51,6 @@ This repository is both a backup of my configuration and a guide for anyone inte
 
 ---
 
-# Screenshots
-
-[[.Screenshots/Screenshots]]
-
----
-
 # Inspiration
 
 Projects and communities that inspired this rice:
