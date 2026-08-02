@@ -88,7 +88,7 @@ bspwm provides exactly that while staying minimal.
 
 ---
 
->[!note]
+>[!IMPORTANT]
 >#### Mirrors
 > [GitHub](https://github.com/d3xt0rn/Making-bspwm-rice)
 > [GitLabs](https://gitlab.com/d3xt0rn/Making-BSPWM-rice)
@@ -96,7 +96,7 @@ bspwm provides exactly that while staying minimal.
 
 ---
 > [!IMPORTANT]
-> part of this project made by AI support<br>
+> some things in this rice made by AI<br>
 > if you found bug tell be about it in `Issues`<br>
 > i will read wiki how to fix it if can
 
