@@ -43,8 +43,6 @@ This repository is both a backup of my configuration and a guide for anyone inte
 * [x] Configure Kitty
 * [x] Configure Picom
 * [x] Set wallpapers
-* [ ] Build a QuickShell bar later
-* [ ] Create a side panel if i will use QuickShell
 * [x] Add notifications
 * [x] Apply a color palette
 * [yes?] Finish the rice
