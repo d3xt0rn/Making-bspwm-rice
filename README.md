@@ -90,8 +90,8 @@ bspwm provides exactly that while staying minimal.
 
 >[!IMPORTANT]
 >#### Mirrors
-> [GitHub](https://github.com/d3xt0rn/Making-bspwm-rice)
-> [GitLabs](https://gitlab.com/d3xt0rn/Making-BSPWM-rice)
+> [GitHub](https://github.com/d3xt0rn/Making-bspwm-rice)<br>
+> [GitLabs](https://gitlab.com/d3xt0rn/Making-BSPWM-rice)<br>
 > [CodeBerg](https://codeberg.org/homedubina/Making-BSPWM-Rice)
 
 ---
